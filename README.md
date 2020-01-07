@@ -1,25 +1,25 @@
 # stabilofont
-stabilofont merupakan sebuah package python yang berfungsi untuk memberikan warna, bakcground ataupun style pada teks python yang berjalan di terminal / cmd.
-Saat kita mengembangkan sebuah program kadang kala kita perlu menandai informasi penting yang kita perlukan oleh karena itu saya mengembangkan
-<b>stabilofont</b> ini untuk mempermudah kalian dan juga saya dalam mengembangkan sebuah program
+stabilofont is a python package that serves to provide color, bakcground or style to python text that runs on the terminal / cmd.
+When we develop a program sometimes we need to mark important information that we need, so I develop it
+<b>stabilofont</b> is to facilitate you and me in developing a program
 
-<h3>Dokumentasi</h3>
-Untuk menggunakan package ini pertama - tama kalian harus memastikan bahwa python yang kalian gunakan sudah versi >= 3.0 karena
-package ini hanya berfungsi pada python versi <b>>= 3.0</b>, Setelah memastikan bahwa python kalian sudah memenuhi syarat ketikan perintah dibawah ini
+<h3>Documentation</h3>
+To use this package you must first ensure that the python you are using is version> = 3.0 because
+This package only works with python version <b> >= 3.0 </b>, after making sure that your python meets the requirements for typing below.
 <pre>
 pip3 install stabilofont
-//## disarankan install versi ketiga
+//## recommended install v0.3 version
 pip3 install stabilofont==0.3
 </pre>
 
-setelah setelah selesai silahkan masukan ke dalam <b>root</b> folder dari project kalian kemudian import dengan cara sebagai berikut
+after completing it please enter into the <b> root </b> folder of your project then import it as follows
 <pre>
 //#file main.py
 from stabilofontfont import *
 ...
 </pre>
 
-untuk menggunakannya cukup mudah yakni kalian hanya tinggal Menuliskan nama warna yang kalian inginkan perhatikan contoh dibawah ini
+to use it is quite easy, you just need to write down the name of the color you want, consider the example below
 
 <pre>
 //## main.py
@@ -30,20 +30,20 @@ kata = Blue("Awesome")
 print(kata)
 </pre>
 <br/>
-<h3>List Warna</h3>
+<h3>List Colors</h3>
 <ol>
-  <li>Hitam => Black(<i>parameters</i>)</li>
-  <li>Merah => Red(<i>parameters</i>)</li>
-  <li>Hijau => Green(<i>parameters</i>)</li>
-  <li>Biru => Blue(<i>parameters</i>)</li>
-  <li>Kuning => Yellow(<i>parameters</i>)</li>
-  <li>Ungu => Purple(<i>parameters</i>)</li>
+  <li>Black=> Black(<i>parameters</i>)</li>
+  <li>Red => Red(<i>parameters</i>)</li>
+  <li>Green => Green(<i>parameters</i>)</li>
+  <li>Blue => Blue(<i>parameters</i>)</li>
+  <li>Yellow => Yellow(<i>parameters</i>)</li>
+  <li>Purple => Purple(<i>parameters</i>)</li>
   <li>Cyan => Cyan(<i>parameters</i>)</li>
-  <li>Putih => White(<i>parameters</i>)</li>
+  <li>White => White(<i>parameters</i>)</li>
 </ol>
 
 <br/>
-Selain contoh diatas kalian juga bisa mengkombinasikannya dengan style lain seperti <b>bold</b>
+Besides the example above, you can also combine it with other styles such as <b>bold</b>
 <br/>
 <pre>
 from stabilofont import *
@@ -53,7 +53,7 @@ input = str(input("Apa pendapatmu tentang bahasa python ? : "))
 print(Bold(Blue(input)))
 </pre>
 
-bukan hanya itu <b>stabilofont</b> ini juga mampu memberikan background pada text yang diinginkan berikut contohnya
+not only that <b> stabilofont </b> is also able to provide the desired background text for the following examples
 
 <pre>
 //## main.py
@@ -65,17 +65,17 @@ print(kata)
 </pre>
 <h3>List Background</h3>
 <ol>
-  <li>Hitam => bgBlack(<i>parameters</i>)</li>
-  <li>Merah => bgRed(<i>parameters</i>)</li>
-  <li>Hijau => bgGreen(<i>parameters</i>)</li>
-  <li>Biru => bgBlue(<i>parameters</i>)</li>
-  <li>Kuning => bgYellow(<i>parameters</i>)</li>
-  <li>Ungu => bgPurple(<i>parameters</i>)</li>
+  <li>Black => bgBlack(<i>parameters</i>)</li>
+  <li>Red => bgRed(<i>parameters</i>)</li>
+  <li>Green => bgGreen(<i>parameters</i>)</li>
+  <li>Blue => bgBlue(<i>parameters</i>)</li>
+  <li>Yellow => bgYellow(<i>parameters</i>)</li>
+  <li>Purple => bgPurple(<i>parameters</i>)</li>
   <li>Cyan => bgCyan(<i>parameters</i>)</li>
-  <li>Putih => bgWhite(<i>parameters</i>)</li>
+  <li>White => bgWhite(<i>parameters</i>)</li>
 </ol>
 <br/>
-Tidak cukup hanya sampai disini <b>stabilofont</b> ini juga mampu memberikan teks dengan hasil tebal, warna custom dan juga terdapat warna background berikut contohnya
+It's not enough just to get here <b> stabilofont </b> is also able to provide text with bold results, custom colors and also the following background colors for example
 <br/>
 
 <pre>
